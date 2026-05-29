@@ -39,3 +39,9 @@ BOARD_SEPOLICY_DIRS += device/google/redbull/sepolicy-lineage/vendor
 ifneq ($(WITH_AVB),true)
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 endif
+
+# Disable dexpreopt
+WITH_DEXPREOPT := false
+
+# Skip VINTF check
+PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := false
