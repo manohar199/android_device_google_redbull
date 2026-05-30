@@ -43,5 +43,3 @@ endif
 # Disable dexpreopt
 WITH_DEXPREOPT := false
 
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    device/google/bramble/lineage_compatibility_matrix.xml
