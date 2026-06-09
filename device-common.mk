@@ -29,7 +29,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/qcom/sm7250/display \
     hardware/qcom/sm7250/gps \
     hardware/qcom/wlan \
-    hardware/qcom/wlan/legacy \
     hardware/qcom-caf/bootctrl \
     system/chre/host/hal_generic \
     vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um
